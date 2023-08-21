@@ -1,25 +1,43 @@
 <!DOCTYPE html>
 <html>
+
 <body>
-<script>
-        let music = new Audio('yooo.mp3');
-        music.play();
-        </script>
-<h1 style="color:MediumSeaGreen;">Polo is a pig</h1>
-<h2 style="color:Tomato;"">Polo is a pig</h2>
-<h2 style="color:DodgerBlue;">Polo is a pig</h2>
-<img src="pig.jpg" width="142" height="142">
-<marquee><p style=" color:blueviolet">  pig polo </p></marquee>
-    <marquee direction="right" 
-        behavior="alternate" ><p style=" color:blue">polo pig</p></marquee>
-        <marquee behavior="scroll" direction="up"><p style=" color:blueviolet">  pig polo </p></marquee>
-        <marquee behavior="scroll" direction="down"><p style=" color:blueviolet">  pig polo </p></marquee>
-<p style="color:MediumSeaGreen;"><b>polo pig pig polo pig pig</b></p>
-<p style="color:rgb(21, 206, 104);"><b><i>polo pig pig polo pig pig</i></b></p>
-<p style="color:MediumSeaGreen;"><strong>polo pig pig polo pig pig</strong></p>
-<p style="color:rgb(43, 194, 111);"><i>polo pig pig polo pig pig</i></p>
-<p style="color:MediumSeaGreen;"><mark>polo pig pig polo pig pig</mark></p>
-<p style="color:MediumSeaGreen;"><b>polo pig pig polo pig pig</b></p>
-<h2 style="color:rgb(150, 181, 211);">Polo is a pig</h2>
+    <div>
+        <audio id="myaudio" controls>
+            <source src="yooo.mp3" type="audio/mp3">
+        </audio>
+    </div>
+    <script>
+        function playAudio() {
+            document.getElementById('myaudio').play()
+        }
+    </script>
+
+
+    <h1 style="color:MediumSeaGreen;">Polo is a pig</h1>
+    <h1 style="color:MediumSeaGreen;">Polo is a pig</h1>
+    <h2 style="color:Tomato;"">Polo is a pig</h2>
+<h2 style=" color:DodgerBlue;">Polo is a pig</h2>
+    <img src="pig.jpg" width="142" height="142">
+    <marquee>
+        <p style=" color:blueviolet"> pig polo </p>
+    </marquee>
+    <marquee direction="right" behavior="alternate">
+        <p style=" color:blue">polo pig</p>
+    </marquee>
+    <marquee behavior="scroll" direction="up">
+        <p style=" color:blueviolet"> pig polo </p>
+    </marquee>
+    <marquee behavior="scroll" direction="down">
+        <p style=" color:blueviolet"> pig polo </p>
+    </marquee>
+    <p style="color:MediumSeaGreen;"><b>polo pig pig polo pig pig</b></p>
+    <p style="color:rgb(21, 206, 104);"><b><i>polo pig pig polo pig pig</i></b></p>
+    <p style="color:MediumSeaGreen;"><strong>polo pig pig polo pig pig</strong></p>
+    <p style="color:rgb(43, 194, 111);"><i>polo pig pig polo pig pig</i></p>
+    <p style="color:MediumSeaGreen;"><mark>polo pig pig polo pig pig</mark></p>
+    <p style="color:MediumSeaGreen;"><b>polo pig pig polo pig pig</b></p>
+    <h2 style="color:rgb(150, 181, 211);">Polo is a pig</h2>
 </body>
+
 </html>
